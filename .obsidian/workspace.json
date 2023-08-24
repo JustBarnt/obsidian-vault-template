@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "0c69cb7eae7e67a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "e389ed4c9d716c11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac5f3be6fba99221",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/August/2023-24-Thursday.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "79900445e0bae31b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e558e1b13bfbc8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20df349ec6451902",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "77aa648e07c3d44a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a5776ba4757cce18",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 332.5
+  },
+  "right": {
+    "id": "96a118cef8d567e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6667a50874fa44e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2b456bbbb6af1ce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily Notes/August/2023-24-Thursday.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8894a048d5558175",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily Notes/August/2023-24-Thursday.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b59fd1d6064aae0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3c77bfa965f39634",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Notes/August/2023-24-Thursday.md"
+              }
+            }
+          },
+          {
+            "id": "6f481954ce29cb00",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "ac5f3be6fba99221",
+  "lastOpenFiles": [
+    "@QUICK VIEW.md",
+    "Daily Notes/August/2023-24-Thursday.md",
+    "Daily Notes/Aug/2023-24-Thursday.md",
+    "Daily Notes/Aug",
+    "CommSys/Daily Notes/2023-24-Thursday.md",
+    "CommSys/Daily Notes",
+    "Personal",
+    "CommSys/Projects/Unactive",
+    "CommSys/Projects/Active",
+    "CommSys/Projects/Archived",
+    "CommSys/Projects",
+    "CommSys/@TASKS.md",
+    "CommSys",
+    "_templates/New Projects Template.md",
+    "_autotasks/Recurring Tasks.md",
+    "_autotasks",
+    "Templates/project_item_template.md",
+    "Templates/New Note - Explain with AI.md",
+    "Templates/movie template.md",
+    "Templates/goal_item_template.md",
+    "Templates/autotracking_goal_item_template.md",
+    "Dashboard.md",
+    "Project Board.md",
+    "Goals.md",
+    "goals/2022-02-11 - Run 1000 km in 2022.md",
+    "ai prompts/suggest title.md",
+    "ai prompts/explain.md",
+    "projects/; Course 1.md",
+    "projects/; AutoTrack Project.md",
+    "projects/; Automate data analysis for email lead data.md",
+    "projects/; Running Plan Q1 2022.md",
+    "projects/; Read and summarize top 5 copywriting books.md",
+    "projects/; Q1 2022 Lead Gen with Cold Emails.md",
+    "projects/; Find startups to invest in.md",
+    "projects/; Course 3.md",
+    "projects",
+    "Pasted image 20230802132402.png",
+    "Pasted image 20230607161638.png"
+  ]
+}
