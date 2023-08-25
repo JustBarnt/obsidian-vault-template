@@ -8,5 +8,7 @@
   "obsidian-charts",
   "obsidian-tasks-plugin",
   "obsidian-contextual-typography",
-  "obsidian-git"
+  "obsidian-git",
+  "metadata-menu",
+  "metaedit"
 ]

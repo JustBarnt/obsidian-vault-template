@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/August/2023-24-Thursday.md",
+                "file": "CommSys/Projects/@PROJECTS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#project/soon",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 200
   },
   "right": {
     "id": "96a118cef8d567e6",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/August/2023-24-Thursday.md",
+                "file": "CommSys/Projects/@PROJECTS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/August/2023-24-Thursday.md",
+                "file": "CommSys/Projects/@PROJECTS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/August/2023-24-Thursday.md"
+                "file": "CommSys/Projects/@PROJECTS.md"
               }
             }
           },
@@ -158,7 +158,18 @@
   },
   "active": "ac5f3be6fba99221",
   "lastOpenFiles": [
+    "CommSys/@TASKS.md",
+    "CommSys/Projects/Active/Untitled.md",
+    "CommSys/Projects/@PROJECTS.md",
     "@QUICK VIEW.md",
+    "_views/projects_active.js",
+    "_templates/New Projects Template.md",
+    "CommSys/Projects/Active/TEST.md",
+    "_views/views_projects.js",
+    "_views/dvProjects.js",
+    "dataview.js",
+    "_views/dataview.js",
+    "_views",
     "Daily Notes/August/2023-24-Thursday.md",
     "Daily Notes/Aug/2023-24-Thursday.md",
     "Daily Notes/Aug",
@@ -166,14 +177,7 @@
     "CommSys/Daily Notes",
     "Personal",
     "CommSys/Projects/Unactive",
-    "CommSys/Projects/Active",
-    "CommSys/Projects/Archived",
-    "CommSys/Projects",
-    "CommSys/@TASKS.md",
-    "CommSys",
-    "_templates/New Projects Template.md",
     "_autotasks/Recurring Tasks.md",
-    "_autotasks",
     "Templates/project_item_template.md",
     "Templates/New Note - Explain with AI.md",
     "Templates/movie template.md",
@@ -189,11 +193,6 @@
     "projects/; AutoTrack Project.md",
     "projects/; Automate data analysis for email lead data.md",
     "projects/; Running Plan Q1 2022.md",
-    "projects/; Read and summarize top 5 copywriting books.md",
-    "projects/; Q1 2022 Lead Gen with Cold Emails.md",
-    "projects/; Find startups to invest in.md",
-    "projects/; Course 3.md",
-    "projects",
     "Pasted image 20230802132402.png",
     "Pasted image 20230607161638.png"
   ]

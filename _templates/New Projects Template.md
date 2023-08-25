@@ -1,7 +1,7 @@
-%% tags: #work #project/soon %%
+---
+Priority: 1
+---
 
-standing:: not started
-priority:: 0
-deadline:: TDB
+%% tags: #work #project/soon %%
 
 # {{title}}
