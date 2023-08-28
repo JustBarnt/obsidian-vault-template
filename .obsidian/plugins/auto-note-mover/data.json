@@ -1,0 +1,31 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "CommSys/Projects/Archived",
+      "tag": "#project/archived",
+      "pattern": ""
+    },
+    {
+      "folder": "CommSys/Projects/Active",
+      "tag": "#project/active",
+      "pattern": ""
+    },
+    {
+      "folder": "CommSys/Projects/Unactive",
+      "tag": "#project/frozen",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": "_templates"
+    },
+    {
+      "folder": "_templates/_projects"
+    }
+  ]
+}

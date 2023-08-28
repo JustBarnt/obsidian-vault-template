@@ -1,17 +1,21 @@
-    const fileQuery = "#project/active";
-    const tableHeadings = ["Name", "Priority"];
-    const limit = 10;
-    const sortBy = tableHeadings[1].toLowerCase();
+// NOTE: When querying by folder you have to start at the project root- it cannot handle relative path to where the query is called from.
+const fileQuery = '"CommSys/Projects" and #project/active';
+const tableHeadings = ["Name", "Created", "DueDate", "Priority", "ProjectType", "Status"];
+const limit = 10;
 
-    const { fieldModifier: f } = this.app.plugins.plugins["metadata-menu"].api;
+const obsidian = this.app.plugins;
+const { update } = obsidian.plugins["metaedit"].api;
+const { fieldModifier: f } = obsidian.plugins["metadata-menu"].api;
 
-    dv.table(tableHeadings,
-        await Promise.all(
-            dv.pages(fileQuery).limit(limit).sort(k => k[sortBy], 'desc')
-            .map(async p => [
-                p.file.link, 
-                await f(dv, p, sortBy)
-            ])
-    ));
-
-
+dv.table(tableHeadings, await Promise.all(dv.pages(fileQuery)
+    .limit(limit)
+    .sort(k => k['priority'], 'desc')
+    .map(async p => [ 
+        p.file.link, 
+        p['Created'], 
+        await f(dv, p, 'DueDate'), 
+        await f(dv, p, 'priority'), 
+        await f(dv, p, 'ProjectType'),
+        p['Status'],
+    ])
+));

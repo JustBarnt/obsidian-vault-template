@@ -11,10 +11,93 @@
       "type": "Number"
     },
     {
-      "name": "logs",
-      "options": {},
+      "name": "DueDate",
+      "options": {
+        "dateFormat": "YYYY-MM-DD",
+        "defaultInsertAsLink": "false"
+      },
       "id": "2",
+      "type": "Date"
+    },
+    {
+      "name": "ProjectType",
+      "options": {
+        "template": "JIRA=-{{type}}-{{number}}"
+      },
+      "id": "3",
       "type": "Input"
+    },
+    {
+      "name": "Created",
+      "options": {
+        "dateFormat": "YYYY-MM-DD",
+        "defaultInsertAsLink": "false"
+      },
+      "id": "4",
+      "type": "Date"
+    },
+    {
+      "name": "Archived",
+      "options": {
+        "dateFormat": "YYYY-MM-DD",
+        "defaultInsertAsLink": "false"
+      },
+      "id": "5",
+      "type": "Date",
+      "command": {
+        "id": "insert__presetField__Archived",
+        "icon": "list-plus",
+        "label": "Insert Archived field"
+      }
+    },
+    {
+      "name": "Status",
+      "options": {
+        "valuesList": {
+          "1": "Not Started",
+          "2": "In Progress",
+          "3": "Completed"
+        },
+        "sourceType": "ValuesList",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": ""
+      },
+      "id": "6",
+      "type": "Select"
+    },
+    {
+      "name": "tags",
+      "options": {},
+      "id": "7",
+      "type": "Input"
+    },
+    {
+      "name": "obsidianUIMode",
+      "options": {
+        "valuesList": {
+          "1": "source",
+          "2": "preview"
+        },
+        "sourceType": "ValuesList",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": ""
+      },
+      "id": "8",
+      "type": "Select"
+    },
+    {
+      "name": "obsidianEditingMode",
+      "options": {
+        "valuesList": {
+          "1": "live",
+          "2": "source"
+        },
+        "sourceType": "ValuesList",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": ""
+      },
+      "id": "9",
+      "type": "Select"
     }
   ],
   "fileClassQueries": [],

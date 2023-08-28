@@ -2,5 +2,9 @@
   "promptDelete": false,
   "vimMode": false,
   "showFrontmatter": false,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "readableLineLength": false,
+  "userIgnoreFilters": [
+    "node_modules/"
+  ]
 }

@@ -7,8 +7,12 @@
   "dataview",
   "obsidian-charts",
   "obsidian-tasks-plugin",
-  "obsidian-contextual-typography",
   "obsidian-git",
   "metadata-menu",
-  "metaedit"
+  "metaedit",
+  "quickadd",
+  "OA-file-hider",
+  "auto-note-mover",
+  "templater-obsidian",
+  "obsidian-view-mode-by-frontmatter"
 ]

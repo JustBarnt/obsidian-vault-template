@@ -4,14 +4,324 @@
       "alias": "Default",
       "host": "http://jira.ad.commsys.com:8080",
       "authenticationType": "BASIC",
-      "password": "bbeec-commsys-030912",
+      "password": "bbeec-commsys-1",
       "priority": 1,
       "color": "#000000",
       "cache": {
         "statusColor": {},
-        "customFieldsIdToName": {},
-        "customFieldsNameToId": {},
-        "customFieldsType": {},
+        "customFieldsIdToName": {
+          "10000": "Customer Request Type",
+          "10001": "Request participants",
+          "10002": "Time to resolution",
+          "10003": "Flagged",
+          "10004": "Epic/Theme",
+          "10005": "Story Points",
+          "10006": "Business Value",
+          "10007": "Sprint",
+          "10008": "Epic Name",
+          "10009": "Epic Link",
+          "10010": "Epic Status",
+          "10011": "Epic Color",
+          "10012": "Rank",
+          "10101": "Customer",
+          "10200": "End User",
+          "10201": "Phone Number",
+          "10202": "E-Mail",
+          "10203": "Department",
+          "10204": "Interface Name",
+          "10500": "Systems Checks",
+          "10501": "mySILsummary",
+          "10600": "Product",
+          "10601": "Product Version",
+          "10700": "Go-Live",
+          "10701": "Severity",
+          "11600": "Account",
+          "11900": "Fix Release Date",
+          "12100": "Admin Training",
+          "12101": "User Training",
+          "12200": "Organizations",
+          "12300": "Approvals",
+          "12400": "Partner Reference ID",
+          "12401": "Partner Ticket Number",
+          "12500": "Development Status",
+          "12600": "Work Order Number",
+          "12601": "Purchase Order Number",
+          "12602": "Start Date",
+          "12603": "Kickoff Date",
+          "12604": "Project Manager Name",
+          "12605": "Project Manager Company",
+          "12606": "Project Page",
+          "12607": "Contact Name",
+          "12608": "Part Number"
+        },
+        "customFieldsNameToId": {
+          "Start Date": "12602",
+          "Systems Checks": "10500",
+          "Purchase Order Number": "12601",
+          "mySILsummary": "10501",
+          "Go-Live": "10700",
+          "Project Manager Name": "12604",
+          "Kickoff Date": "12603",
+          "Severity": "10701",
+          "Project Page": "12606",
+          "Project Manager Company": "12605",
+          "Part Number": "12608",
+          "Contact Name": "12607",
+          "Organizations": "12200",
+          "Partner Reference ID": "12400",
+          "Customer": "10101",
+          "Work Order Number": "12600",
+          "Partner Ticket Number": "12401",
+          "Fix Release Date": "11900",
+          "Epic Status": "10010",
+          "Epic Color": "10011",
+          "Rank": "10012",
+          "Department": "10203",
+          "Story Points": "10005",
+          "Business Value": "10006",
+          "Interface Name": "10204",
+          "Product": "10600",
+          "Product Version": "10601",
+          "Sprint": "10007",
+          "Epic Name": "10008",
+          "Epic Link": "10009",
+          "User Training": "12101",
+          "Admin Training": "12100",
+          "Customer Request Type": "10000",
+          "Request participants": "10001",
+          "Approvals": "12300",
+          "End User": "10200",
+          "Time to resolution": "10002",
+          "Flagged": "10003",
+          "Phone Number": "10201",
+          "Development Status": "12500",
+          "E-Mail": "10202",
+          "Epic/Theme": "10004",
+          "Account": "11600"
+        },
+        "customFieldsType": {
+          "10000": {
+            "type": "sd-customerrequesttype",
+            "custom": "com.atlassian.servicedesk:vp-origin",
+            "customId": 10000
+          },
+          "10001": {
+            "type": "array",
+            "items": "user",
+            "custom": "com.atlassian.servicedesk:sd-request-participants",
+            "customId": 10001
+          },
+          "10002": {
+            "type": "sd-servicelevelagreement",
+            "custom": "com.atlassian.servicedesk:sd-sla-field",
+            "customId": 10002
+          },
+          "10003": {
+            "type": "array",
+            "items": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+            "customId": 10003
+          },
+          "10004": {
+            "type": "array",
+            "items": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:labels",
+            "customId": 10004
+          },
+          "10005": {
+            "type": "number",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+            "customId": 10005
+          },
+          "10006": {
+            "type": "number",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+            "customId": 10006
+          },
+          "10007": {
+            "type": "array",
+            "items": "string",
+            "custom": "com.pyxis.greenhopper.jira:gh-sprint",
+            "customId": 10007
+          },
+          "10008": {
+            "type": "string",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-label",
+            "customId": 10008
+          },
+          "10009": {
+            "type": "any",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-link",
+            "customId": 10009
+          },
+          "10010": {
+            "type": "option",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-status",
+            "customId": 10010
+          },
+          "10011": {
+            "type": "string",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-color",
+            "customId": 10011
+          },
+          "10012": {
+            "type": "any",
+            "custom": "com.pyxis.greenhopper.jira:gh-lexo-rank",
+            "customId": 10012
+          },
+          "10101": {
+            "type": "string",
+            "custom": "com.keplerrominfo.jira.plugins.databasecf:databaseinput",
+            "customId": 10101
+          },
+          "10200": {
+            "type": "string",
+            "custom": "com.keplerrominfo.jira.plugins.databasecf:databaseinput",
+            "customId": 10200
+          },
+          "10201": {
+            "type": "string",
+            "custom": "com.keplerrominfo.jira.plugins.keplercf:regexcf",
+            "customId": 10201
+          },
+          "10202": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 10202
+          },
+          "10203": {
+            "type": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+            "customId": 10203
+          },
+          "10204": {
+            "type": "string",
+            "custom": "com.keplerrominfo.jira.plugins.databasecf:databaseinput",
+            "customId": 10204
+          },
+          "10500": {
+            "type": "array",
+            "items": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+            "customId": 10500
+          },
+          "10501": {
+            "type": "any",
+            "custom": "com.keplerrominfo.jira.plugins.keplercf:silscriptcf",
+            "customId": 10501
+          },
+          "10600": {
+            "type": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+            "customId": 10600
+          },
+          "10601": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 10601
+          },
+          "10700": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10700
+          },
+          "10701": {
+            "type": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+            "customId": 10701
+          },
+          "11600": {
+            "type": "account",
+            "custom": "com.tempoplugin.tempo-accounts:accounts.customfield",
+            "customId": 11600
+          },
+          "11900": {
+            "type": "any",
+            "custom": "com.deniz.jira.versioning:release-date-custom-field",
+            "customId": 11900
+          },
+          "12100": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 12100
+          },
+          "12101": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 12101
+          },
+          "12200": {
+            "type": "array",
+            "items": "sd-customerorganization",
+            "custom": "com.atlassian.servicedesk:sd-customer-organizations",
+            "customId": 12200
+          },
+          "12300": {
+            "type": "any",
+            "custom": "com.atlassian.servicedesk.approvals-plugin:sd-approvals",
+            "customId": 12300
+          },
+          "12400": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 12400
+          },
+          "12401": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 12401
+          },
+          "12500": {
+            "type": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+            "customId": 12500
+          },
+          "12600": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 12600
+          },
+          "12601": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 12601
+          },
+          "12602": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 12602
+          },
+          "12603": {
+            "type": "datetime",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+            "customId": 12603
+          },
+          "12604": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 12604
+          },
+          "12605": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 12605
+          },
+          "12606": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:url",
+            "customId": 12606
+          },
+          "12607": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 12607
+          },
+          "12608": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 12608
+          }
+        },
         "jqlAutocomplete": {
           "fields": [],
           "functions": {}
@@ -27,8 +337,8 @@
     "columns": []
   },
   "colorSchema": "FOLLOW_OBSIDIAN",
-  "inlineIssueUrlToTag": true,
-  "inlineIssuePrefix": "JIRA:",
+  "inlineIssueUrlToTag": false,
+  "inlineIssuePrefix": "JIRA=",
   "showColorBand": true,
   "searchColumns": [
     {
