@@ -1,16 +1,19 @@
-// NOTE: When querying by folder you have to start at the project root- it cannot handle relative path to where the query is called from.
-const fileQuery = '"CommSys/Projects" and #project/froze';
-const tableHeadings = ["Name", "Created", "Priority"];
-const limit = 10;
+const obsidian = this.app.plugins;
+const { fieldModifier: f } = obsidian.plugins["metadata-menu"].api;
+const { pages, headings } = input;
 
-const { fieldModifier: f } = this.app.plugins.plugins["metadata-menu"].api;
-
-dv.table(tableHeadings,
-    await Promise.all(
-        dv.pages(fileQuery).limit(limit).sort(k => k['priority'], 'desc')
-        .map(async p => [
+for(let group of pages.groupBy(page => page.Component)){
+    dv.header(3, `Interface: ${group.key}`)
+    dv.table(headings, await Promise.all(group.rows
+        .sort(p => p['priority'], 'desc')
+        .map(async p => [ 
+            p["Component"],
             p.file.link, 
-            p['Created'],
-            await f(dv, p, 'priority')
+            p['Created'], 
+            await f(dv, p, 'DueDate'), 
+            await f(dv, p, 'priority'), 
+            p['Issue'],
+            p['Status']
         ])
-));
+    ));
+}

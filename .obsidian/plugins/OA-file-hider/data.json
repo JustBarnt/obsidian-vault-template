@@ -1,6 +1,7 @@
 {
   "hidden": false,
   "hiddenList": [
-    "node_modules"
+    "node_modules",
+    "_scripts"
   ]
 }

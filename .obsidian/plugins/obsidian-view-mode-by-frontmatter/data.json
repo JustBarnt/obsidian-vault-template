@@ -1,0 +1,18 @@
+{
+  "ignoreOpenFiles": false,
+  "ignoreForceViewAll": false,
+  "folders": [
+    {
+      "folder": "_templates",
+      "viewMode": "obsidianUIMode: source"
+    },
+    {
+      "folder": "CommSys/Projects",
+      "viewMode": "obsidianUIMode: source"
+    },
+    {
+      "folder": "CommSys/Project",
+      "viewMode": "obsidianEditingMode: live"
+    }
+  ]
+}

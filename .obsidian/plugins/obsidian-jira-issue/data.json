@@ -332,13 +332,13 @@
   ],
   "apiBasePath": "/rest/api/latest",
   "cacheTime": "15m",
-  "searchResultsLimit": 10,
+  "searchResultsLimit": 100,
   "cache": {
     "columns": []
   },
   "colorSchema": "FOLLOW_OBSIDIAN",
   "inlineIssueUrlToTag": false,
-  "inlineIssuePrefix": "JIRA=",
+  "inlineIssuePrefix": "JIRA:",
   "showColorBand": true,
   "searchColumns": [
     {

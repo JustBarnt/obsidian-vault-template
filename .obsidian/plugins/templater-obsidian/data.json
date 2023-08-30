@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "_templates",
-      "template": "_templates/_projects/_active.md"
+      "folder": "CommSys",
+      "template": "_templates/_projects/_project.md"
     }
   ],
   "syntax_highlighting": true,

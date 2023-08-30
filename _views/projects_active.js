@@ -1,6 +1,6 @@
 // NOTE: When querying by folder you have to start at the project root- it cannot handle relative path to where the query is called from.
 const fileQuery = '"CommSys/Projects" and #project/active';
-const tableHeadings = ["Name", "Created", "DueDate", "Priority", "ProjectType", "Status"];
+const tableHeadings = ["Name", "Created", "Due Date", "Priority", "Issue", "Status"];
 const limit = 10;
 
 const obsidian = this.app.plugins;
@@ -15,7 +15,7 @@ dv.table(tableHeadings, await Promise.all(dv.pages(fileQuery)
         p['Created'], 
         await f(dv, p, 'DueDate'), 
         await f(dv, p, 'priority'), 
-        await f(dv, p, 'ProjectType'),
+        p['Issue'],
         p['Status'],
     ])
 ));

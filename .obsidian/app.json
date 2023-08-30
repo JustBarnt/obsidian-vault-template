@@ -2,9 +2,10 @@
   "promptDelete": false,
   "vimMode": false,
   "showFrontmatter": false,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "readableLineLength": false,
   "userIgnoreFilters": [
     "node_modules/"
-  ]
+  ],
+  "newFileLocation": "root"
 }

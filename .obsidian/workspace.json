@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9d9d6568f9eeb78e",
+        "id": "3d5bbcae630c5a0a",
         "type": "tabs",
         "children": [
           {
-            "id": "b37470bb29eb97fa",
+            "id": "212209d918cc0897",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CommSys/Projects/Active/CSTL-344 - Implement Transform Command.md",
+                "file": "@QUICK VIEW.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -49,8 +49,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#project/active",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 279.5
   },
   "right": {
     "id": "96a118cef8d567e6",
@@ -81,29 +81,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2b456bbbb6af1ce",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "CommSys/Projects/Active/CSTL-344 - Implement Transform Command.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "8894a048d5558175",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CommSys/Projects/Active/CSTL-344 - Implement Transform Command.md",
+                "file": "@QUICK VIEW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CommSys/Projects/Active/CSTL-344 - Implement Transform Command.md"
+                "file": "@QUICK VIEW.md"
               }
             }
           },
@@ -157,44 +140,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b37470bb29eb97fa",
+  "active": "212209d918cc0897",
   "lastOpenFiles": [
+    "_templates/_projects/_project.md",
     "@QUICK VIEW.md",
-    "Pasted image 20230828114616.png",
-    "CommSys/Projects/@PROJECTS.md",
-    "CommSys/Projects/Active/CSTL-344 - Implement Transform Command.md",
-    "Daily Notes/August/2023-28-Monday.md",
-    "CommSys/@TASKS.md",
+    "CommSys/Projects/Active/CSTL-334 - Add Transform Command Line Support to Transaction Editor.md",
     "_templates/DAILY.md",
-    "Daily Notes/August/2023-24-Thursday.md",
-    "Daily Notes/August/2023-25-Friday.md",
-    "_templates/_projects/_active.md",
-    "_autotasks/Recurring Tasks.md",
-    "CommSys/Projects/Active/Untitled.md",
+    "Daily Notes/August/2023-30-Wednesday.md",
+    "CommSys/Projects/Archived/INT-4399 - Implement data-mining of AL Driver License in OK_OLETS_OFML.md",
+    "CommSys/Projects/@TASKS.md",
+    "CommSys/Projects/Archived/INT-4401 - KyVehicleRegistrationChainQuery AddressCounty length needs corrected in developer documentation and metadata.md",
+    "CommSys/@JIRA PROJECTS.md",
+    "CommSys/Projects/Inactive/INT-4408 - Create WMPE Package for ME_MECJIS.md",
+    "CommSys/Projects/Inactive/INT-4406 - Implement Securities Query Package for TX_TLETS.md",
+    "CommSys/Projects/Inactive/INT-4380 - Implement RI Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-4379 - Implement PA Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-4378 - Implement OR Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-4377 - Implement OK Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-4376 - Implement ND Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-4375 - Implement NC Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-4374 - Implement NY Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-4373 - Implement NM Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-4372 - Implement NJ Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-4370 - Implement NV Nlets Data-mining for IN_IDACS.md",
+    "CommSys/Projects/Inactive/INT-3813 - Implement DC Nlets Data-mining for KS_KCJIS_OFML.md",
+    "CommSys/Projects/Inactive/INT-3778 - Implement KS Nlets Data-mining for KS_KCJIS_OFML.md",
+    "CommSys/Projects/Inactive/INT-3776 - Implement IN Nlets Data-mining for KS_KCJIS_OFML.md",
+    "CommSys/Projects/Inactive/INT-3775 - Implement IL Nlets Data-mining for KS_KCJIS_OFML.md",
+    "CommSys/Projects/Inactive/INT-3774 - Implement ID Nlets Data-mining for KS_KCJIS_OFML.md",
+    "_scripts/setup.js",
+    "_scripts",
+    "Scripts/setup.js",
+    "Scripts",
+    "CommSys/Projects/Untitled",
+    "Pasted image 20230828114616.png",
     "_templates/templater.js",
     "_views/pnpm-lock.yaml",
     "_views/package.json",
     "New Text Document.txt",
     "New folder",
-    "package.json",
-    "pnpm-lock.yaml",
-    "pnpm-lock.yaml.1885382066",
-    "_views/node_modules",
-    "_tmp_30180_6d548e6ed4dea32f7e0da7c33d2a85a1",
-    "_templates/_projects/_soon.md",
-    "_templates/_projects/_archived.md",
-    "CommSys/Projects/Active/TEST.md",
-    "Daily Notes/Aug/2023-24-Thursday.md",
-    "CommSys/Daily Notes/2023-24-Thursday.md",
-    "Templates/project_item_template.md",
-    "Templates/New Note - Explain with AI.md",
-    "Templates/movie template.md",
-    "Templates/goal_item_template.md",
-    "Templates/autotracking_goal_item_template.md",
-    "Dashboard.md",
-    "Project Board.md",
-    "Goals.md",
-    "goals/2022-02-11 - Run 1000 km in 2022.md",
     "Pasted image 20230802132402.png",
     "Pasted image 20230607161638.png"
   ]

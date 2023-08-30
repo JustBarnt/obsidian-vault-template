@@ -1,7 +1,7 @@
 {
   "trigger_auto_manual": "Automatic",
   "use_regex_to_check_for_tags": false,
-  "statusBar_trigger_indicator": true,
+  "statusBar_trigger_indicator": false,
   "folder_tag_pattern": [
     {
       "folder": "CommSys/Projects/Archived",
@@ -14,8 +14,8 @@
       "pattern": ""
     },
     {
-      "folder": "CommSys/Projects/Unactive",
-      "tag": "#project/frozen",
+      "folder": "CommSys/Projects/Inactive",
+      "tag": "#project/inactive",
       "pattern": ""
     }
   ],
@@ -26,6 +26,12 @@
     },
     {
       "folder": "_templates/_projects"
+    },
+    {
+      "folder": "_autotasks"
+    },
+    {
+      "folder": "Daily Notes"
     }
   ]
 }
