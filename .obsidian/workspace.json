@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@QUICK VIEW.md",
-                "mode": "preview",
+                "file": "CommSys/Projects/Archived/INT-4399 - Implement data-mining of AL Driver License in OK_OLETS_OFML.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "@QUICK VIEW.md",
+                "file": "CommSys/Projects/Archived/INT-4399 - Implement data-mining of AL Driver License in OK_OLETS_OFML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@QUICK VIEW.md"
+                "file": "CommSys/Projects/Archived/INT-4399 - Implement data-mining of AL Driver License in OK_OLETS_OFML.md"
               }
             }
           },
@@ -143,7 +143,9 @@
   "active": "212209d918cc0897",
   "lastOpenFiles": [
     "_templates/_projects/_project.md",
+    "CommSys/Untitled.md",
     "@QUICK VIEW.md",
+    "CommSys/Projects/Inactive/INT-3769 - Implement CT Nlets Data-mining for KS_KCJIS_OFML.md",
     "CommSys/Projects/Active/CSTL-334 - Add Transform Command Line Support to Transaction Editor.md",
     "_templates/DAILY.md",
     "Daily Notes/August/2023-30-Wednesday.md",
@@ -166,8 +168,6 @@
     "CommSys/Projects/Inactive/INT-3813 - Implement DC Nlets Data-mining for KS_KCJIS_OFML.md",
     "CommSys/Projects/Inactive/INT-3778 - Implement KS Nlets Data-mining for KS_KCJIS_OFML.md",
     "CommSys/Projects/Inactive/INT-3776 - Implement IN Nlets Data-mining for KS_KCJIS_OFML.md",
-    "CommSys/Projects/Inactive/INT-3775 - Implement IL Nlets Data-mining for KS_KCJIS_OFML.md",
-    "CommSys/Projects/Inactive/INT-3774 - Implement ID Nlets Data-mining for KS_KCJIS_OFML.md",
     "_scripts/setup.js",
     "_scripts",
     "Scripts/setup.js",

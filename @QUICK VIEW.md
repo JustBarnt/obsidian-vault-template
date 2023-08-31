@@ -35,10 +35,10 @@ hide edit button
 hide backlink
 short mode
 ```
-# Do Today
+# Do within A Week
 ```tasks
 not done
-due tomorrow or due today
+due in this week
 priority is above low
 folder does not include _templates/
 is not recurring
