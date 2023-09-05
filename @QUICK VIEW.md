@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-tags: <% tp.file.tags = ['#quickview'] %>
+tags: quickview
 ---
 # Project Glance
 ```dataview

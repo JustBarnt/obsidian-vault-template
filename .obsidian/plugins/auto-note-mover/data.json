@@ -22,13 +22,13 @@
   "use_regex_to_check_for_excluded_folder": false,
   "excluded_folder": [
     {
-      "folder": "_templates"
+      "folder": "_setup/_templates"
     },
     {
-      "folder": "_templates/_projects"
+      "folder": "_setup/_templates/_projects"
     },
     {
-      "folder": "_autotasks"
+      "folder": "_setup/_autotasks"
     },
     {
       "folder": "Daily Notes"

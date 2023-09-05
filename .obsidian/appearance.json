@@ -1,8 +1,9 @@
 {
   "accentColor": "",
-  "baseFontSize": 15,
-  "cssTheme": "Neo",
+  "baseFontSize": 16,
+  "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "frontmatter"
-  ]
+  ],
+  "theme": "obsidian"
 }

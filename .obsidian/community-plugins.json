@@ -16,5 +16,9 @@
   "templater-obsidian",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-advanced-new-file",
-  "obsidian-toggle-meta-yaml-plugin"
+  "obsidian-toggle-meta-yaml-plugin",
+  "customjs",
+  "obsidian-contextual-typography",
+  "obsidian-minimal-settings",
+  "homepage"
 ]

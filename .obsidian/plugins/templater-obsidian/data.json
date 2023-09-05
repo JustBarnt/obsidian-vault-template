@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "_templates/_projects",
+  "templates_folder": "_setup/_templates/_projects",
   "templates_pairs": [
     [
       "",
@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "CommSys",
-      "template": "_templates/_projects/_project.md"
+      "template": "_setup/_templates/_projects/_project.md"
     }
   ],
   "syntax_highlighting": true,
